@@ -1,3 +1,4 @@
+
 /* header section */
 
 /* navbar */
@@ -8,6 +9,15 @@
     background-repeat: no-repeat;
     width: 100%;
 }
+
+
+/* main section */
+
+main {
+    background-color: #D6DDED;
+}
+
+
 
 /* footer */
 
