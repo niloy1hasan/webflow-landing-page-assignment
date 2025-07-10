@@ -1,3 +1,8 @@
+/* mixed style */
+
+.text-color {
+    color: #8987A1;
+}
 
 /* header section */
 
@@ -27,6 +32,29 @@ main {
 }
 
 /* bottom-footer */
+.bottom-logo {
+    font-size: 70px;
+    color: #4E47FF;
+}
+
 .bottom-footer {
     background-color: white;
+    border-top: solid 1px lightgray;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.bottom-footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.bottom-footer a {
+    text-decoration: none;
+    color: #8987A1;
+}
+
+.bottom-footer ul li {
+    list-style-type: none;
 }
