@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #F5F8FF;
+}
+
 /* mixed style */
 
 .text-color {
@@ -150,7 +154,7 @@ main {
 }
 
 .feedback-heading-title {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bolder;
     margin-bottom: 10px;
 }
@@ -250,22 +254,50 @@ main {
 
 /* get in touch section */
 .get-in-touch {
-    background-color: #F5F8FF;
     display: flex;
-    gap: 20px;
     padding: 40px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .touch-title {
     color: black;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bolder;
-    width: 40%;
     text-align: left;
 }
 
-.message-box label, .message-box input, .message-box textarea{
+
+.message-box label, .message-box input, .message-box textarea {
 display: block;
+width: 350px;
+}
+
+.message-box label  {
+    margin-bottom: 5px;
+}
+
+.message-box input, .message-box textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+.message-box input[type="email"],.message-box  input[type="text"], .message-box textarea {
+    outline-width: 1px;
+    outline-offset: 0px;
+    border: solid 1px #D6DDED;
+}
+
+
+.message-box input[type="submit"] {
+    width: 100%;
 }
 
 
