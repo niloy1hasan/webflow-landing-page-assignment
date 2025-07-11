@@ -102,6 +102,42 @@ main {
 }
 
 
+/* productive-user section */
+
+.productive-user {
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 35px 50px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 24px;
+}
+
+
+.productive-user-title {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.user-state-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.state-box .state-amount {
+    color: #4E47FF;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.state-box .state-title {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    font-weight: 400;
+}
+
 
 /* footer */
 
