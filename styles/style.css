@@ -10,6 +10,14 @@
     color: #8987A1;
 }
 
+.text-title-color {
+    color: #252432;
+}
+
+.text-light-sub-title {
+    color: rgba(37, 36, 50, 0.5);
+}
+
 .primary-btn {
     color: white;
     background-color: #4E47FF;
@@ -61,7 +69,36 @@
 /* main section */
 
 main {
-    background-color: #D6DDED;
+    background-color: #F5F8FF;
+}
+
+/* action section */
+
+.action {
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+    align-items: center
+    ;
+}
+
+.action-description {
+    text-align: left;
+}
+
+.action-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.action-sub-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.mini-poster {
+    border-radius: 48px;
+    height: 300px;
 }
 
 
