@@ -139,6 +139,83 @@ main {
 }
 
 
+/* feedback section */
+
+.feedback-section {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+.feedback-heading-title {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+
+.feedback-layout {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.feedback {
+    border: solid 1px #F2EDED;
+    border-radius: 15px;
+    padding: 20px 15px;
+    margin: 15px;
+    background-color: #FAFCFF;
+
+}
+
+.star-group {
+    margin-bottom: 15px;
+}
+
+.feedback-title {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.user {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-picture {
+    border-radius: 50%;
+}
+
+
+.feedback-description {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #1E1E1E;
+}
+
+
+
+.user-name {
+    color: #757575;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.review-date {
+    color: #B3B3B3;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+
 /* footer */
 
 /* get in touch section */
@@ -154,7 +231,7 @@ main {
     font-size: 60px;
     font-weight: bolder;
     width: 40%;
-    text-align: center;
+    text-align: left;
 }
 
 .message-box label, .message-box input, .message-box textarea{
